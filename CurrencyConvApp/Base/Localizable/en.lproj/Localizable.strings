@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  CurrencyConvApp
+
+  Created by GoncaloSAlmeida on 08/08/2024.
+  
+*/
+
+// MARK: - Navigation
+"nav.rates.title" = "Exchange Rates - EUR";
+
+// MARK: - Tabs
+"tab.actual.rates.title" = "Rates";
+"tab.currency.converter.title" = "Converter";
+
+// MARK: - Errors
+"errors.failed.to.decode" = "Failed to decode";
+"errors.invalid.url" = "Invalid URL";
+
+// MARK: - RatesView
+"exchange.rates" = "Exchange Rates";
+"no.exchange.rates" = "No exchange rates available.";

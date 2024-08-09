@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		221E9D5A2C650DCF007A5DA0 /* CurrencyConvAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E9D592C650DCF007A5DA0 /* CurrencyConvAppApp.swift */; };
-		221E9D5C2C650DCF007A5DA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E9D5B2C650DCF007A5DA0 /* ContentView.swift */; };
+		221E9D5A2C650DCF007A5DA0 /* CurrencyConvApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E9D592C650DCF007A5DA0 /* CurrencyConvApp.swift */; };
 		221E9D5E2C650DD0007A5DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221E9D5D2C650DD0007A5DA0 /* Assets.xcassets */; };
 		221E9D612C650DD0007A5DA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221E9D602C650DD0007A5DA0 /* Preview Assets.xcassets */; };
 		221E9D6B2C650DD1007A5DA0 /* CurrencyConvAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E9D6A2C650DD1007A5DA0 /* CurrencyConvAppTests.swift */; };
 		221E9D752C650DD1007A5DA0 /* CurrencyConvAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E9D742C650DD1007A5DA0 /* CurrencyConvAppUITests.swift */; };
 		221E9D772C650DD1007A5DA0 /* CurrencyConvAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E9D762C650DD1007A5DA0 /* CurrencyConvAppUITestsLaunchTests.swift */; };
+		221E9D872C650FE9007A5DA0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 221E9D852C650FE9007A5DA0 /* Localizable.strings */; };
+		221E9D892C65107E007A5DA0 /* LocalizableKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E9D882C65107E007A5DA0 /* LocalizableKeys.swift */; };
+		221E9D8B2C6510BB007A5DA0 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E9D8A2C6510BB007A5DA0 /* String+Extension.swift */; };
+		221E9D8F2C651504007A5DA0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E9D8E2C651504007A5DA0 /* Constants.swift */; };
+		221E9D922C65165E007A5DA0 /* Rates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E9D912C65165E007A5DA0 /* Rates.swift */; };
+		221E9D962C651841007A5DA0 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E9D952C651841007A5DA0 /* NetworkService.swift */; };
+		221E9D982C651856007A5DA0 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E9D972C651856007A5DA0 /* Endpoint.swift */; };
+		221E9D9C2C651D06007A5DA0 /* CurrencyConvViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E9D9B2C651D06007A5DA0 /* CurrencyConvViewModel.swift */; };
+		221E9DA12C651E94007A5DA0 /* RatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E9DA02C651E94007A5DA0 /* RatesView.swift */; };
+		221E9DA32C6521A4007A5DA0 /* CurrencyConv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E9DA22C6521A4007A5DA0 /* CurrencyConv.swift */; };
+		221E9DA52C66322D007A5DA0 /* RateRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E9DA42C66322D007A5DA0 /* RateRowView.swift */; };
+		221E9DA72C6666CC007A5DA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221E9DA62C6666CC007A5DA0 /* LaunchScreen.storyboard */; };
+		221E9DA92C666D57007A5DA0 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E9DA82C666D57007A5DA0 /* CustomError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +47,7 @@
 
 /* Begin PBXFileReference section */
 		221E9D562C650DCF007A5DA0 /* CurrencyConvApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConvApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		221E9D592C650DCF007A5DA0 /* CurrencyConvAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConvAppApp.swift; sourceTree = "<group>"; };
-		221E9D5B2C650DCF007A5DA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		221E9D592C650DCF007A5DA0 /* CurrencyConvApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConvApp.swift; sourceTree = "<group>"; };
 		221E9D5D2C650DD0007A5DA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		221E9D602C650DD0007A5DA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		221E9D662C650DD1007A5DA0 /* CurrencyConvAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyConvAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +55,19 @@
 		221E9D702C650DD1007A5DA0 /* CurrencyConvAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyConvAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		221E9D742C650DD1007A5DA0 /* CurrencyConvAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConvAppUITests.swift; sourceTree = "<group>"; };
 		221E9D762C650DD1007A5DA0 /* CurrencyConvAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConvAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		221E9D862C650FE9007A5DA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		221E9D882C65107E007A5DA0 /* LocalizableKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableKeys.swift; sourceTree = "<group>"; };
+		221E9D8A2C6510BB007A5DA0 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		221E9D8E2C651504007A5DA0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		221E9D912C65165E007A5DA0 /* Rates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rates.swift; sourceTree = "<group>"; };
+		221E9D952C651841007A5DA0 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		221E9D972C651856007A5DA0 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		221E9D9B2C651D06007A5DA0 /* CurrencyConvViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConvViewModel.swift; sourceTree = "<group>"; };
+		221E9DA02C651E94007A5DA0 /* RatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesView.swift; sourceTree = "<group>"; };
+		221E9DA22C6521A4007A5DA0 /* CurrencyConv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConv.swift; sourceTree = "<group>"; };
+		221E9DA42C66322D007A5DA0 /* RateRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateRowView.swift; sourceTree = "<group>"; };
+		221E9DA62C6666CC007A5DA0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		221E9DA82C666D57007A5DA0 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +118,13 @@
 		221E9D582C650DCF007A5DA0 /* CurrencyConvApp */ = {
 			isa = PBXGroup;
 			children = (
-				221E9D592C650DCF007A5DA0 /* CurrencyConvAppApp.swift */,
-				221E9D5B2C650DCF007A5DA0 /* ContentView.swift */,
+				221E9D902C6515F4007A5DA0 /* Base */,
+				221E9D932C651661007A5DA0 /* Model */,
+				221E9D9A2C651CF6007A5DA0 /* ViewModel */,
+				221E9D9F2C651E84007A5DA0 /* View */,
+				221E9D942C65182E007A5DA0 /* Network */,
+				221E9D592C650DCF007A5DA0 /* CurrencyConvApp.swift */,
+				221E9DA62C6666CC007A5DA0 /* LaunchScreen.storyboard */,
 				221E9D5D2C650DD0007A5DA0 /* Assets.xcassets */,
 				221E9D5F2C650DD0007A5DA0 /* Preview Content */,
 			);
@@ -125,6 +154,93 @@
 				221E9D762C650DD1007A5DA0 /* CurrencyConvAppUITestsLaunchTests.swift */,
 			);
 			path = CurrencyConvAppUITests;
+			sourceTree = "<group>";
+		};
+		221E9D842C650FDA007A5DA0 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				221E9D882C65107E007A5DA0 /* LocalizableKeys.swift */,
+				221E9D852C650FE9007A5DA0 /* Localizable.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		221E9D8C2C6510BE007A5DA0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				221E9D8A2C6510BB007A5DA0 /* String+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		221E9D8D2C6514F5007A5DA0 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				221E9D8E2C651504007A5DA0 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		221E9D902C6515F4007A5DA0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				221E9D8D2C6514F5007A5DA0 /* Constants */,
+				221E9D8C2C6510BE007A5DA0 /* Extension */,
+				221E9D842C650FDA007A5DA0 /* Localizable */,
+				221E9DAA2C666E02007A5DA0 /* Error */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		221E9D932C651661007A5DA0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				221E9D912C65165E007A5DA0 /* Rates.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		221E9D942C65182E007A5DA0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				221E9D992C6518D6007A5DA0 /* Endpoint */,
+				221E9D952C651841007A5DA0 /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		221E9D992C6518D6007A5DA0 /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				221E9D972C651856007A5DA0 /* Endpoint.swift */,
+				221E9DA22C6521A4007A5DA0 /* CurrencyConv.swift */,
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		221E9D9A2C651CF6007A5DA0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				221E9D9B2C651D06007A5DA0 /* CurrencyConvViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		221E9D9F2C651E84007A5DA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				221E9DA02C651E94007A5DA0 /* RatesView.swift */,
+				221E9DA42C66322D007A5DA0 /* RateRowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		221E9DAA2C666E02007A5DA0 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				221E9DA82C666D57007A5DA0 /* CustomError.swift */,
+			);
+			path = Error;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +348,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				221E9D612C650DD0007A5DA0 /* Preview Assets.xcassets in Resources */,
+				221E9D872C650FE9007A5DA0 /* Localizable.strings in Resources */,
+				221E9DA72C6666CC007A5DA0 /* LaunchScreen.storyboard in Resources */,
 				221E9D5E2C650DD0007A5DA0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +375,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				221E9D5C2C650DCF007A5DA0 /* ContentView.swift in Sources */,
-				221E9D5A2C650DCF007A5DA0 /* CurrencyConvAppApp.swift in Sources */,
+				221E9D9C2C651D06007A5DA0 /* CurrencyConvViewModel.swift in Sources */,
+				221E9D8B2C6510BB007A5DA0 /* String+Extension.swift in Sources */,
+				221E9D922C65165E007A5DA0 /* Rates.swift in Sources */,
+				221E9D982C651856007A5DA0 /* Endpoint.swift in Sources */,
+				221E9DA12C651E94007A5DA0 /* RatesView.swift in Sources */,
+				221E9DA92C666D57007A5DA0 /* CustomError.swift in Sources */,
+				221E9D892C65107E007A5DA0 /* LocalizableKeys.swift in Sources */,
+				221E9DA32C6521A4007A5DA0 /* CurrencyConv.swift in Sources */,
+				221E9D5A2C650DCF007A5DA0 /* CurrencyConvApp.swift in Sources */,
+				221E9D8F2C651504007A5DA0 /* Constants.swift in Sources */,
+				221E9D962C651841007A5DA0 /* NetworkService.swift in Sources */,
+				221E9DA52C66322D007A5DA0 /* RateRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +421,17 @@
 			targetProxy = 221E9D712C650DD1007A5DA0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		221E9D852C650FE9007A5DA0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				221E9D862C650FE9007A5DA0 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		221E9D782C650DD1007A5DA0 /* Debug */ = {
@@ -427,6 +566,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,6 +595,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

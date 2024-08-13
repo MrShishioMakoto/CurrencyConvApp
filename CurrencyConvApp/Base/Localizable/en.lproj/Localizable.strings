@@ -10,13 +10,29 @@
 "nav.rates.title" = "Exchange Rates - EUR";
 
 // MARK: - Tabs
-"tab.actual.rates.title" = "Rates";
-"tab.currency.converter.title" = "Converter";
+"tab.actual.rates.title" = "Exchange Rates";
+"tab.currency.converter.title" = "Currency Convertion";
 
 // MARK: - Errors
 "errors.failed.to.decode" = "Failed to decode";
 "errors.invalid.url" = "Invalid URL";
 
+// MARK: - Alert
+"alert.title" = "ERROR";
+"alert.message" = "Something went wrong...";
+"alert.button.refresh" = "Refresh";
+
 // MARK: - RatesView
 "exchange.rates" = "Exchange Rates";
 "no.exchange.rates" = "No exchange rates available.";
+
+// MARK: - ConvertView
+"convert.amount.to.convert" = "Amount to Convert";
+"convert.amount" = "Amount";
+"convert.from.currency" = "From Currency";
+"convert.to.currency" = "To Currency";
+"convert.convert" = "Convert";
+"convert.converted.amount" = "Converted Amount";
+"convert.placeholder" = "Enter the amount and select currencies to convert.";
+"convert.default.from.currency" = "EUR";
+"convert.default.to.currency" = "USD";

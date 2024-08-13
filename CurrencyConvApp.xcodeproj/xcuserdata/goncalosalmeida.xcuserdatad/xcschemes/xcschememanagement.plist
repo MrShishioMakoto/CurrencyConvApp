@@ -9,6 +9,29 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>CurrencyConvAppTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>221E9D552C650DCF007A5DA0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>221E9D652C650DD1007A5DA0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>221E9D6F2C650DD1007A5DA0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>

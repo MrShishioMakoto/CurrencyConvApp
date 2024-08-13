@@ -25,7 +25,7 @@ struct CurrencyConvApp: App {
                     
                 }
                 NavigationView {
-                    // TODO
+                    ConvertView(viewModel: viewModel)
                 }
                 .tabItem {
                     Label(

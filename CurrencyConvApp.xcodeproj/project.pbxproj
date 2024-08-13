@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		221CD1E12C6A12D50048321C /* ConvertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221CD1E02C6A12D50048321C /* ConvertView.swift */; };
+		221CD1E52C6A71C50048321C /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221CD1E42C6A71C50048321C /* MockURLProtocol.swift */; };
+		221CD1E72C6A7A310048321C /* JSONMockResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221CD1E62C6A7A310048321C /* JSONMockResponse.swift */; };
+		221D2FFE2C6AB2ED00720B19 /* MockNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221D2FFD2C6AB2ED00720B19 /* MockNetworkService.swift */; };
+		221D30002C6AB4A400720B19 /* CurrencyConvViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221D2FFF2C6AB4A400720B19 /* CurrencyConvViewModelTests.swift */; };
 		221E9D5A2C650DCF007A5DA0 /* CurrencyConvApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E9D592C650DCF007A5DA0 /* CurrencyConvApp.swift */; };
 		221E9D5E2C650DD0007A5DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221E9D5D2C650DD0007A5DA0 /* Assets.xcassets */; };
 		221E9D612C650DD0007A5DA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221E9D602C650DD0007A5DA0 /* Preview Assets.xcassets */; };
-		221E9D6B2C650DD1007A5DA0 /* CurrencyConvAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E9D6A2C650DD1007A5DA0 /* CurrencyConvAppTests.swift */; };
 		221E9D752C650DD1007A5DA0 /* CurrencyConvAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E9D742C650DD1007A5DA0 /* CurrencyConvAppUITests.swift */; };
 		221E9D772C650DD1007A5DA0 /* CurrencyConvAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E9D762C650DD1007A5DA0 /* CurrencyConvAppUITestsLaunchTests.swift */; };
 		221E9D872C650FE9007A5DA0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 221E9D852C650FE9007A5DA0 /* Localizable.strings */; };
@@ -26,6 +30,7 @@
 		221E9DA52C66322D007A5DA0 /* RateRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E9DA42C66322D007A5DA0 /* RateRowView.swift */; };
 		221E9DA72C6666CC007A5DA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221E9DA62C6666CC007A5DA0 /* LaunchScreen.storyboard */; };
 		221E9DA92C666D57007A5DA0 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E9DA82C666D57007A5DA0 /* CustomError.swift */; };
+		221E9DAD2C666EFA007A5DA0 /* NetworkServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E9DAC2C666EFA007A5DA0 /* NetworkServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,12 +51,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		221CD1E02C6A12D50048321C /* ConvertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertView.swift; sourceTree = "<group>"; };
+		221CD1E42C6A71C50048321C /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		221CD1E62C6A7A310048321C /* JSONMockResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONMockResponse.swift; sourceTree = "<group>"; };
+		221D2FFD2C6AB2ED00720B19 /* MockNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkService.swift; sourceTree = "<group>"; };
+		221D2FFF2C6AB4A400720B19 /* CurrencyConvViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConvViewModelTests.swift; sourceTree = "<group>"; };
 		221E9D562C650DCF007A5DA0 /* CurrencyConvApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConvApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		221E9D592C650DCF007A5DA0 /* CurrencyConvApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConvApp.swift; sourceTree = "<group>"; };
 		221E9D5D2C650DD0007A5DA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		221E9D602C650DD0007A5DA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		221E9D662C650DD1007A5DA0 /* CurrencyConvAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyConvAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		221E9D6A2C650DD1007A5DA0 /* CurrencyConvAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConvAppTests.swift; sourceTree = "<group>"; };
 		221E9D702C650DD1007A5DA0 /* CurrencyConvAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyConvAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		221E9D742C650DD1007A5DA0 /* CurrencyConvAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConvAppUITests.swift; sourceTree = "<group>"; };
 		221E9D762C650DD1007A5DA0 /* CurrencyConvAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConvAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -68,6 +77,7 @@
 		221E9DA42C66322D007A5DA0 /* RateRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateRowView.swift; sourceTree = "<group>"; };
 		221E9DA62C6666CC007A5DA0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		221E9DA82C666D57007A5DA0 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		221E9DAC2C666EFA007A5DA0 /* NetworkServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +105,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		221CD1DE2C6A12A00048321C /* Rates */ = {
+			isa = PBXGroup;
+			children = (
+				221E9DA02C651E94007A5DA0 /* RatesView.swift */,
+				221E9DA42C66322D007A5DA0 /* RateRowView.swift */,
+			);
+			path = Rates;
+			sourceTree = "<group>";
+		};
+		221CD1DF2C6A12AF0048321C /* Convert */ = {
+			isa = PBXGroup;
+			children = (
+				221CD1E02C6A12D50048321C /* ConvertView.swift */,
+			);
+			path = Convert;
+			sourceTree = "<group>";
+		};
 		221E9D4D2C650DCE007A5DA0 = {
 			isa = PBXGroup;
 			children = (
@@ -142,7 +169,9 @@
 		221E9D692C650DD1007A5DA0 /* CurrencyConvAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				221E9D6A2C650DD1007A5DA0 /* CurrencyConvAppTests.swift */,
+				221E9DAB2C666EC7007A5DA0 /* Mock */,
+				221E9DAC2C666EFA007A5DA0 /* NetworkServiceTests.swift */,
+				221D2FFF2C6AB4A400720B19 /* CurrencyConvViewModelTests.swift */,
 			);
 			path = CurrencyConvAppTests;
 			sourceTree = "<group>";
@@ -229,8 +258,8 @@
 		221E9D9F2C651E84007A5DA0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				221E9DA02C651E94007A5DA0 /* RatesView.swift */,
-				221E9DA42C66322D007A5DA0 /* RateRowView.swift */,
+				221CD1DE2C6A12A00048321C /* Rates */,
+				221CD1DF2C6A12AF0048321C /* Convert */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -241,6 +270,16 @@
 				221E9DA82C666D57007A5DA0 /* CustomError.swift */,
 			);
 			path = Error;
+			sourceTree = "<group>";
+		};
+		221E9DAB2C666EC7007A5DA0 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				221CD1E62C6A7A310048321C /* JSONMockResponse.swift */,
+				221CD1E42C6A71C50048321C /* MockURLProtocol.swift */,
+				221D2FFD2C6AB2ED00720B19 /* MockNetworkService.swift */,
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,6 +353,7 @@
 					};
 					221E9D652C650DD1007A5DA0 = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 						TestTargetID = 221E9D552C650DCF007A5DA0;
 					};
 					221E9D6F2C650DD1007A5DA0 = {
@@ -385,6 +425,7 @@
 				221E9DA32C6521A4007A5DA0 /* CurrencyConv.swift in Sources */,
 				221E9D5A2C650DCF007A5DA0 /* CurrencyConvApp.swift in Sources */,
 				221E9D8F2C651504007A5DA0 /* Constants.swift in Sources */,
+				221CD1E12C6A12D50048321C /* ConvertView.swift in Sources */,
 				221E9D962C651841007A5DA0 /* NetworkService.swift in Sources */,
 				221E9DA52C66322D007A5DA0 /* RateRowView.swift in Sources */,
 			);
@@ -394,7 +435,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				221E9D6B2C650DD1007A5DA0 /* CurrencyConvAppTests.swift in Sources */,
+				221D2FFE2C6AB2ED00720B19 /* MockNetworkService.swift in Sources */,
+				221CD1E72C6A7A310048321C /* JSONMockResponse.swift in Sources */,
+				221CD1E52C6A71C50048321C /* MockURLProtocol.swift in Sources */,
+				221E9DAD2C666EFA007A5DA0 /* NetworkServiceTests.swift in Sources */,
+				221D30002C6AB4A400720B19 /* CurrencyConvViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,6 +661,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -624,6 +670,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = GoncaloSerraAlmeida.CurrencyConvAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CurrencyConvApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CurrencyConvApp";
@@ -635,6 +682,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;

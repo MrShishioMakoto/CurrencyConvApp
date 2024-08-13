@@ -38,7 +38,7 @@ class NetworkService: NetworkServiceProtocol {
         components.host = apiHost
         components.path = "/\(endpoint.path)"
         components.queryItems = endpoint.queryItems
-        guard let url = components.url else {
+        guard let url = components.url, apiHost != "" else {
             throw CustomError.invalidUrl
         }
         return url
